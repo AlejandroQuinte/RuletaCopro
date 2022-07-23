@@ -7,6 +7,14 @@ body {
     background-image: url("http://127.0.0.1:5500/image/fondo.png ");
 }
 
+@media screen and (max-width: 1300px) {
+    .contenido-ruleta {
+        margin-left: 20%;
+        width: auto;
+    }
+} 
+
+
 .vara {
     height: 70px;
     width: 15px;
@@ -28,7 +36,7 @@ img {
 #premio {
     color: white;
     position: absolute;
-
+    width: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.173);
 }
@@ -67,20 +75,22 @@ img {
 
 @media screen and (max-width: 562px) {
     .contenido-ruleta {
+        margin: 0;
         margin-top: 80%;
     }
 
-    #premio{
+    #premio {
         top: 0;
         max-height: 240px;
-        overflow: scroll; 
+        overflow: scroll;
     }
-    .vara::after { 
-        position:absolute;
+
+    .vara::after {
+        position: absolute;
         margin: -9rem 0 0 8rem;
         content: "⇕";
         font-size: 2rem;
-        color: white; 
+        color: white;
         padding: 0;
         padding: 0.5rem;
         background-color: rgba(255, 255, 255, 0.173);
@@ -88,8 +98,8 @@ img {
 
     .vara {
         height: 40px;
-        width: 10px;  
-        border-top: 2px solid rgb(0, 0, 0); 
+        width: 10px;
+        border-top: 2px solid rgb(0, 0, 0);
     }
 
 }
