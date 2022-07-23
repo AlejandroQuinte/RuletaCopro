@@ -6,7 +6,7 @@
 
 body {
     background:rgb(117, 116, 116) !important;
-    background-image: url("http://127.0.0.1:5500/image/fondo.png ") !important;
+    background-image: url("../image/fondo.png") !important;
 }
 
 @media screen and (max-width: 1300px) {
