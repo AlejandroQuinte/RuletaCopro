@@ -12,22 +12,7 @@ function girar(){
     var sonido = document.querySelector('#audio');
     sonido.setAttribute('src', 'sonido/ruleta.mp3');
     document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros; 
-  /*}else{
-    Swal.fire({
-      icon: 'success',
-      title: 'VUELVA PRONTO EL JUEGO TERMINO!!',
-      confirmButtonColor: '#3085d6',
-      confirmButtonText: 'Aceptar',
-      allowOutsideClick: false
-    }).then((result)=>{
-      if (result.value == true) {
-        giros = 0;
-         document.querySelector('.elije').innerHTML = 'TU CORTESIA ES: ';
-         document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros;        
-      }
-    })
-  }
-*/
+   
 
 function premio(premios){ 
 
